@@ -52,7 +52,10 @@ void setup(){
 
 
 
-
+    digitalWrite(led,HIGH);
+ 
+ 
+      str.begin();
 str.print(kirim);
 sms.SendSMS(n,buffer);
  digitalWrite(led,LOW); 
